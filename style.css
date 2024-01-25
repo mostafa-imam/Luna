@@ -1,7 +1,7 @@
 /* universal styles */
 
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
@@ -12,6 +12,8 @@ body {
     align-items: stretch;
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 
 /* header styles */
@@ -92,5 +94,54 @@ ul {
 
 .main-subcontainer-1 img {
     width: 500px;
+    height: auto;
+}
+
+/* main container styles */
+/* main-container-2 */
+
+.main-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+.main-subcontainer-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    flex-wrap: wrap;
+}
+
+.moon-phases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex: auto;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
+.moon {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px 5px #ffffff10;
+}
+
+.moon img {
+    width: 250px;
     height: auto;
 }
