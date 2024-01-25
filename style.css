@@ -1,7 +1,7 @@
 /* universal styles */
 
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    color: white;
+    color: #c8c9c8;
 }
 
 /* header styles */
@@ -174,4 +174,13 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* footer sytles */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a4a4a1a;
 }
