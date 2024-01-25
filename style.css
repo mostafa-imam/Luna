@@ -30,14 +30,15 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1200px;
+    width: 1100px;
     flex: auto;
-    color: white;
+    color: #c8c9c8;
 }
 
 .header-content > p {
     font-size: 24px;
-    color: #f9faf8;
+    color: #c8c9c8;
 }
 
 ul {
@@ -48,19 +49,19 @@ ul {
     padding: 0;
     margin: 0;
     font-size: 18px;
-    color: #f9faf8;
+    color: #c8c9c8;
 }
 
 .header-content ul li a {
     text-decoration: none;
-    color: white;
+    color: #c8c9c8;
 }
 
 /* main container styles */
 
 .main-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -80,7 +81,8 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1200px;
+    width: 1200px;
     flex: auto;
     gap: 10px;
     border: 3px solid rgba(255, 255, 255, 0.161);
@@ -92,12 +94,12 @@ ul {
 .main-hero-text h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #c8c9c8;
 }
 
 .main-hero-text p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #c8c9c8;
 }
 
 .main-hero-text button {
@@ -134,7 +136,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     flex: auto;
     flex-grow: 1;
     margin: 0 auto;
@@ -149,7 +151,8 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 0px 3px 5px 5px #98969617;
+    border: 3px solid #c8c9c82e;
+    padding: 10px;
 }
 
 .moon img {
@@ -174,6 +177,26 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* main-container-4 styles */
+
+.main-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-subcontainer-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 3px solid rgba(172, 169, 169, 0.455);
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 /* footer sytles */
