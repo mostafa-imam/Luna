@@ -1,7 +1,7 @@
 /* universal styles */
 
 * {
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 
 body {
@@ -57,7 +57,15 @@ ul {
 }
 
 /* main container styles */
-/* main-container-1 */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* main container 1 styles*/
 
 .main-container-1 {
     display: flex;
@@ -75,6 +83,10 @@ ul {
     max-width: 1100px;
     flex: auto;
     gap: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.161);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
 }
 
 .main-hero-text h1 {
@@ -97,16 +109,15 @@ ul {
     height: auto;
 }
 
-/* main container styles */
-/* main-container-2 */
+/* main container 2 styles */
 
 .main-container-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 20px 0;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 900px;
 }
 
 .main-subcontainer-2 {
@@ -114,14 +125,14 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
+    max-width: 1200px;
     flex-wrap: wrap;
 }
 
 .moon-phases {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
     flex: auto;
@@ -138,10 +149,29 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 0px 3px 5px 5px #ffffff10;
+    box-shadow: 0px 3px 5px 5px #98969617;
 }
 
 .moon img {
     width: 250px;
     height: auto;
+}
+
+/* main container 3 styles */
+
+.main-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-subcontainer-3 p {
+    align-self: flex-end;
+}
+
+.main-subcontainer-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
